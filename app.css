@@ -146,7 +146,9 @@ header {
       margin-right: 0; }
 
 #section {
-  background: yellow; }
+  background: rgba(69, 80, 87, 0.85);
+  width: 1920px;
+  height: 470px; }
 
 .wrapper {
   width: 1170px;
