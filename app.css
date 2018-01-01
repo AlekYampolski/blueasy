@@ -11,7 +11,9 @@ header {
   background: #455057;
   font-family: Segoe UI;
   text-transform: uppercase;
-  color: #fff; }
+  color: #fff;
+  position: absolute;
+  top: 0; }
   header h1 {
     width: 170px;
     font-size: 21px;
@@ -44,7 +46,7 @@ header {
   position: relative; }
   #hero .banner-overlane {
     position: absolute;
-    top: 250px; }
+    top: 400px; }
     #hero .banner-overlane .banner-title div {
       text-align: center; }
     #hero .banner-overlane .banner-title h2 {
