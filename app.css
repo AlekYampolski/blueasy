@@ -8,7 +8,8 @@ ul {
 header {
   width: 1920px;
   height: 150px;
-  background: #455057;
+  background: rgba(69, 80, 87, 0.85);
+  opacity: 85%;
   font-family: Segoe UI;
   text-transform: uppercase;
   color: #fff;
@@ -16,7 +17,7 @@ header {
   top: 0; }
   header h1 {
     width: 170px;
-    font-size: 21px;
+    font-size: 30px;
     font-weight: bold;
     float: left;
     margin-top: 55px;
@@ -38,11 +39,11 @@ header {
         text-decoration: none;
         display: inline-block;
         color: inherit;
-        font-size: 10px;
+        font-size: 14px;
         padding: 11px 18px 10px 18px; }
 
 #hero {
-  height: 650px;
+  height: 800px;
   position: relative; }
   #hero .banner-overlane {
     position: absolute;
@@ -50,11 +51,12 @@ header {
     #hero .banner-overlane .banner-title div {
       text-align: center; }
     #hero .banner-overlane .banner-title h2 {
-      font-size: 30px;
+      font-size: 42px;
       font-weight: 300;
       margin: 0px 0 12px 0;
-      background-color: #6e444a;
-      line-height: 2.2;
+      color: #fff;
+      background-color: #4b555d;
+      line-height: 1.5714285714285714;
       display: inline-block;
       font-family: Segoe UI;
       text-transform: uppercase;
