@@ -3,7 +3,7 @@
     $wrapper-width : 1170px;
     $l-color : #6fa2cc; 
     $header-color : #455057;
-    $active-color : #4bcaff;
+    $active-color : #4bcaff; 
     $m-font : Segoe UI;
 
     body {
@@ -93,7 +93,36 @@
                 }
             }
         }
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+   
     }
+
+    #services {
+        background: $active-color;
+        height: 405px;
+        position: relative;
+        .s-content {
+            .col {
+                    width: 270px;
+                    float: left;
+                    margin-right: 30px;
+                
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+                    &:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                    }
+        } 
+    }
+    
     .wrapper {
       width: $wrapper-width;
         margin: 0 375px;
