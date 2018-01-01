@@ -1,0 +1,98 @@
+    //VARIABLES
+    $p-width : 1920px;
+    $wrapper-width : 1170px;
+    $l-color : #6fa2cc; 
+    $header-color : #455057;
+    $active-color : #4bcaff;
+
+    body {
+        box-sizing: border-box;
+        max-width: $p-width;
+        // overflow: hidden;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    header {
+        width: 1920px;
+        height: 180px;
+        background: $header-color;
+        font-family: Segoe UI;
+        text-transform: uppercase;
+        color: #fff;
+
+        h1 {
+            width: 170px;
+            font-size: 21px;
+            font-weight: bold;
+            float: left;
+            margin-top : 55px;
+            margin-bottom: 0px;
+        }
+
+        h2 {
+            height: 0;
+            text-indent: -100000px;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+           float: right;
+          
+            ul {
+                margin-top: 55px;
+                padding-top: 0px;
+                // float: right;
+                li {
+                   float: left;
+                }
+                a {
+                    line-height: 1;
+                    text-decoration: none;
+                    display: inline-block;
+                    color: inherit;
+                    font-size: 10px;
+                    padding: 11px 18px 10px 18px;
+            
+                   
+                }
+            }
+        }
+    
+    }
+
+    #hero {
+        max-height: 650px;
+        
+        // overflow: hidden;
+        position: relative;
+        img {
+            width: 100%;
+        }
+
+        .banner-overlane {
+            position: absolute;
+            top: 20%;
+            
+            h2 {
+                font-size: 30px;
+                text-align: center;
+                background-color: #6e444a;
+            }
+        }
+    }
+    .wrapper {
+      width: $wrapper-width;
+        margin: 0 375px;
+        
+    }
+
+    .logo {
+        color: $l-color;
+    }
+
+    .active {
+        border: 2px solid $active-color;
+    }

@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Check if it needs a wrapper class.
+<!-- Check if it needs a wrapper class.
     Just use img as background img and put all contant in .wrapper (container like bootstrap) -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normolize.css">
+    <link rel="stylesheet" href="app.css">
     <title>BlueEasy</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <h1>BlueEasy</h1>
-            <ul>
-                <li>
-                    <a href="#">home</a>
-                </li>
-                <li>
-                    <a href="#">services</a>
-                </li>
-                <li>
-                    <a href="#">features</a>
-                </li>
-                <li>
-                    <a href="#">portfolio</a>
-                </li>
-                <li>
-                    <a href="#">contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <div class="wrapper">
+            <h1>Blu<span class="logo">E</span>asy</h1>
+            <nav>
+                <!-- <h2>Main Navigation</h2> -->
+                <ul>
+                    <li>
+                        <a href="#" class="active">home</a>
+                    </li>
+                    <li>
+                        <a href="#">services</a>
+                    </li>
+                    <li>
+                        <a href="#">features</a>
+                    </li>
+                    <li>
+                        <a href="#">portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- ../wrapper -->
+        </header>
+
     <div id="hero">
         <img src="images/bg_1.jpg" alt="lead-banner">
         <div class="banner-overlane">
             <div class="wrapper">
                 <div class="banner-title">
-                    “I’m looking for the unexpected. I’m looking for things I’ve never seen before.”
+                    <h2>“I’m looking for the unexpected.</h2>
+                    <h2>I’m looking for things I’ve never seen before.”</h2>
                 </div>
             </div>
             <!-- ./wrapper -->
@@ -176,7 +184,8 @@
             <div class="t-main">
                 <span class="icon">Twiiter</span>
                 <!-- ICON OF TWITTER -->
-                <p>Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake @cheesecake tootsie roll.</p>
+                <p>Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake @cheesecake tootsie
+                    roll.</p>
             </div>
             <!-- ./t-main -->
         </div>
@@ -188,7 +197,7 @@
         <div class="wrapper">
             <div class="w-header">
                 <h2>
-                        Who is john doe?
+                    Who is john doe?
                 </h2>
             </div>
             <!-- ./w-header -->
@@ -196,15 +205,17 @@
 
                 <div class="col">
                     <p>
-                            Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.
-                            
-                            Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.
+                        Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com.
+                        Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie. Muffin chupa chups
+                        jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder
+                        pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.
                     </p>
                 </div>
                 <!-- ./col -->
 
                 <div class="col">
-                    <p>Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear claw pastry.</p>
+                    <p>Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum cotton
+                        candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear claw pastry.</p>
 
                     <div class="logos">
                         twitter facebook instagram
@@ -213,7 +224,7 @@
                 <!-- ./col -->
             </div>
             <!-- ./w-main -->
-   
+
         </div>
         <!-- ./wrapper -->
     </div>
@@ -228,10 +239,11 @@
             <div class="ts-main">
                 <blockquote>"</blockquote>
                 <p>
-                        Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.
+                    Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie
+                    soufflé sweet roll sweet roll jelly-o.
                 </p>
                 <p>
-                        -Walter White
+                    -Walter White
                 </p>
             </div>
 
@@ -247,10 +259,10 @@
                 <h2>
                     Contact
                 </h2>
-                
+
             </div>
             <!-- ./c-header -->
-            
+
             <div class="c-main">
                 <form action="#">
                     <label for="f-name">Full name</label>
@@ -261,18 +273,16 @@
 
                     <label for="message">Message</label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    
+
                     <a href="#" class="btn" type="submit">message</a>
                 </form>
 
                 <p>
-                        Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.
+                    Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake.
+                    Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.
                 </p>
                 <p>
-                        Linda Newman
-                        W325 State Road 123
-                        Mondovi, WI(Wisconsin) 98746-54321
-                        (715) 946 - 1234
+                    Linda Newman W325 State Road 123 Mondovi, WI(Wisconsin) 98746-54321 (715) 946 - 1234
                 </p>
             </div>
             <!-- ./c-main -->
@@ -285,10 +295,18 @@
 
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">portfolio</a></li>
-                <li><a href="#">contact</a></li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">services</a>
+                </li>
+                <li>
+                    <a href="#">portfolio</a>
+                </li>
+                <li>
+                    <a href="#">contact</a>
+                </li>
             </ul>
         </nav>
     </footer>
