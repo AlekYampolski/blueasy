@@ -4,6 +4,7 @@
     $l-color : #6fa2cc; 
     $header-color : #455057;
     $active-color : #4bcaff;
+    $m-font : Segoe UI;
 
     body {
         box-sizing: border-box;
@@ -17,7 +18,7 @@
 
     header {
         width: 1920px;
-        height: 180px;
+        height: 150px;
         background: $header-color;
         font-family: Segoe UI;
         text-transform: uppercase;
@@ -64,22 +65,32 @@
     }
 
     #hero {
-        max-height: 650px;
+        height: 650px;
         
         // overflow: hidden;
         position: relative;
         img {
-            width: 100%;
+            // width: 100%;
         }
 
         .banner-overlane {
             position: absolute;
-            top: 20%;
-            
-            h2 {
-                font-size: 30px;
-                text-align: center;
-                background-color: #6e444a;
+            top: 250px;
+            .banner-title {
+                div {
+                    text-align: center;
+                }
+                h2 {
+                    font-size: 30px;
+                    font-weight: 300;
+                    margin: 0px 0 12px 0;
+                    background-color: #6e444a;
+                    line-height: 2.2;
+                    display: inline-block;
+                    font-family: $m-font;
+                    text-transform: uppercase;
+                    padding: 0 20px;
+                }
             }
         }
     }
