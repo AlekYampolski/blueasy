@@ -107,6 +107,47 @@ header {
     display: block;
     clear: both; }
 
+#portfolio {
+  height: 845px; }
+  #portfolio .m-title {
+    margin-bottom: 80px; }
+    #portfolio .m-title .p-title {
+      float: left; }
+    #portfolio .m-title h2 {
+      color: #000;
+      width: 200px; }
+    #portfolio .m-title .m-line {
+      border-top-color: #000; }
+    #portfolio .m-title nav {
+      float: right; }
+      #portfolio .m-title nav li {
+        display: inline-block;
+        float: left; }
+        #portfolio .m-title nav li a {
+          line-height: 1;
+          text-decoration: none;
+          display: inline-block;
+          color: rgba(105, 116, 123, 0.9);
+          text-transform: uppercase;
+          font-size: 14px;
+          line-height: 2.6; }
+          #portfolio .m-title nav li a .active {
+            color: #4bcaff; }
+    #portfolio .m-title:after {
+      content: "";
+      display: block;
+      clear: both; }
+  #portfolio .col {
+    width: 270px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px; }
+    #portfolio .col:last-child {
+      margin-right: 0; }
+
+#section {
+  background: yellow; }
+
 .wrapper {
   width: 1170px;
   margin: 0 375px; }
@@ -129,6 +170,12 @@ header {
   color: rgba(75, 202, 255, 0.1); }
 
 .active {
-  border: 2px solid #4bcaff; }
+  border: 2px solid #4bcaff;
+  color: #4bcaff; }
+
+.m-clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
 
 /*# sourceMappingURL=app.css.map */
