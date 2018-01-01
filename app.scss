@@ -1,7 +1,7 @@
     //VARIABLES
     $p-width : 1920px;
     $wrapper-width : 1170px;
-    $l-color : #6fa2cc; 
+    $l-color : rgba(75, 202, 255, 0.1);  
     $header-color : rgba(69,80,87,0.85);
     $active-color : #4bcaff; 
     $m-font : Segoe UI;
@@ -34,6 +34,7 @@
             float: left;
             margin-top : 55px;
             margin-bottom: 0px;
+            color: rgba(255,255,255,0.1);
         }
 
         h2 {
@@ -56,7 +57,7 @@
                     line-height: 1;
                     text-decoration: none;
                     display: inline-block;
-                    color: inherit;
+                    color: rgba(255,255,255,0.9);
                     font-size: 14px;
                     padding: 11px 18px 10px 18px;
             
@@ -108,29 +109,100 @@
     #services {
         background: $active-color;
         height: 405px;
+        width: 1920px;
         position: relative;
+ 
         .s-content {
             .col {
+                    color : #fff;
                     width: 270px;
                     float: left;
                     margin-right: 30px;
+                    font-family: $m-font;
+
+
+
+                    h3 {
+                        font-size: 24px;
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        display: block;
+                        margin-top: 25px;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+                  .m-img {
+                      display: block;
+
+                      height: 50px;
+                      width: 50px;
+                      
+                      background : url(images/sv_1.png);
+                      background-position-y : - 10px; 
+                      margin-top: 40px;
+                      
+                  }
+
+                  
+
                 
                 &:last-child {
                     margin-right: 0;
                 }
-            }
-                    &:after {
-                        content: "";
-                        display: block;
-                        clear: both;
+                
+                &:nth-child(2){
+                    .m-img {
+                        background-position-x: -100px;
                     }
+                }
+
+                &:nth-child(3){
+                    .m-img {
+                        background-position: -200px ;
+                    }
+                }
+
+                &:nth-child(4){
+                    .m-img {
+                        background-position: -300px ;
+                    }
+                }
+              
+            }
+                  
         } 
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
     }
     
     .wrapper {
       width: $wrapper-width;
         margin: 0 375px;
         
+    }
+    .m-title {
+        h2 {
+            margin: 0px;
+            padding-top: 80px;
+            line-height: 1;
+            font-size: 30px;
+            text-transform: uppercase;
+            font-family: $m-font;
+            color: #fff;
+            font-weight: 300;
+            
+        }
+       .m-line {
+           width: 45px;
+           border-top: white 2px solid;
+           margin-top: 4px;
+       }
     }
 
     .logo {
