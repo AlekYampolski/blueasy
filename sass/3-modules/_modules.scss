@@ -1,0 +1,40 @@
+.wrapper {
+    width: $wrapper-width;
+      margin: 0 375px;
+      
+  }
+  .m-title {
+      h2 {
+          margin: 0px;
+          padding-top: 80px;
+          line-height: 1;
+          font-size: 30px;
+          text-transform: uppercase;
+          font-family: $m-font;
+          color: #fff;
+          font-weight: 300;
+          
+      }
+     .m-line {
+         width: 45px;
+         border-top: white 2px solid;
+         margin-top: 4px;
+     }
+  }
+
+  .logo {
+      color: $l-color;
+  }
+
+  .active {
+      border: 2px solid $active-color;
+      color: $active-color;
+  }
+
+  .m-clearfix {
+      &:after {
+          content: "";
+          display: block;
+          clear: both;
+      }
+  }

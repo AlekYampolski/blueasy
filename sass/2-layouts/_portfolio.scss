@@ -1,0 +1,59 @@
+#portfolio {
+    height: 845px;
+    .m-title {
+        margin-bottom: 80px;
+       .p-title {
+           float: left;
+       }
+        h2 {
+            color: #000;
+            width: 200px;
+            
+           
+        }
+        .m-line {
+            border-top-color: #000;
+            
+        }
+        nav {
+            float: right;  
+            li {
+                display: inline-block;
+                float : left;
+
+                a {
+                    line-height: 1;
+                    text-decoration: none;
+                    display: inline-block;
+                    color: rgba(105,116,123,0.9);
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    line-height: 2.6;
+                    
+                    .active {
+                        color : $active-color;  
+                    }
+                   
+                }
+            }
+        }
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        } 
+        
+    }
+    
+    .col {
+        
+        width: 270px;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+     }
+}

@@ -1,0 +1,74 @@
+ #services {
+        background: $active-color;
+        height: 405px;
+        width: 1920px;
+        position: relative;
+ 
+        .s-content {
+            .col {
+                    color : #fff;
+                    width: 270px;
+                    float: left;
+                    margin-right: 30px;
+                    font-family: $m-font;
+
+
+
+                    h3 {
+                        font-size: 24px;
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        display: block;
+                        margin-top: 25px;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+                  .m-img {
+                      display: block;
+
+                      height: 50px;
+                      width: 50px;
+                      
+                      background : url(../images/sv_1.png);
+                      background-position-y : - 10px; 
+                      margin-top: 40px;
+                      
+                  }
+
+                  
+
+                
+                &:last-child {
+                    margin-right: 0;
+                }
+                
+                &:nth-child(2){
+                    .m-img {
+                        background-position-x: -100px;
+                    }
+                }
+
+                &:nth-child(3){
+                    .m-img {
+                        background-position: -200px ;
+                    }
+                }
+
+                &:nth-child(4){
+                    .m-img {
+                        background-position: -300px ;
+                    }
+                }
+              
+            }
+                  
+        } 
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    }
