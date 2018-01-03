@@ -1,0 +1,17 @@
+#twitter {
+    background: $twitter-color;
+    height: 305px;
+    width: $p-width;
+    color : #fff;   
+
+    .m-title h2 {
+        margin-bottom: 40px;
+    }
+    
+    p {
+        font-size: 28px;
+        font-style: $m-font;
+    }
+
+    
+}

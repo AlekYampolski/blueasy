@@ -1,0 +1,34 @@
+#section {
+    background: $section-color;
+    height: 475px;
+    width: $p-width;
+    font-family: $m-font;
+
+    .col {
+        width: 500px;
+
+        &:first-child {
+            float: left;
+        }
+
+        &:last-child {
+            float: right;
+        }
+    }
+
+    p {
+        margin: 40px 0;   
+    }
+
+    a {
+        color: $section-btn-color;
+        padding:  15px 40px;
+        border: 2px solid $section-btn-color;
+        font-weight: bold;
+        
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    
+}

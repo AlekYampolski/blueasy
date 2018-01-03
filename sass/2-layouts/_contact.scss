@@ -1,0 +1,22 @@
+#contact {
+    height: 815px;
+    position: relative;
+ 
+
+    .banner-overlane {
+        position: absolute;
+       top: 0px;
+    }
+
+    .col {
+        width: 47%;
+    }
+
+    .col:first-child{
+        float: left;
+    }
+
+    .col:last-child{
+        float: right;
+    }
+}

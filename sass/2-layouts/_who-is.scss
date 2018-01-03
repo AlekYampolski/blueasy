@@ -1,0 +1,45 @@
+#who-is {
+    height: 505px;
+    position: relative;
+    color: #fff;
+
+    .col {
+        width: 570px;
+
+        &:first-child{
+            float: left;
+        }
+        
+        &:last-child{
+            float: right;
+        }
+    }
+    
+        .banner-overlane {
+            position: absolute;
+            top: 0px;
+            .banner-title {
+                div {
+                    text-align: center;
+                }
+                h2 {
+                    font-size: 42px;
+                    font-weight: 300;
+                    margin: 0px 0 12px 0;
+                    color: #fff;
+                    background-color: #4b555d;
+                    line-height: 1.5714285714285714;
+                    display: inline-block;
+                    font-family: $m-font;
+                    text-transform: uppercase;
+                    padding: 0 20px;
+                }
+            }
+        }
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    
+}

@@ -1,0 +1,17 @@
+footer {
+    height: 170px;
+    background: $footer-color;
+
+    ul {
+        margin-top: 0;
+    }
+    li {
+        float: left;
+    }
+
+    a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
