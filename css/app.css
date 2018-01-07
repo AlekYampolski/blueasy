@@ -496,6 +496,7 @@ header {
 #portfolio {
   height: 845px; }
   #portfolio .m-title {
+    position: relative;
     margin-bottom: 80px; }
     #portfolio .m-title .p-title {
       float: left; }
@@ -505,7 +506,10 @@ header {
     #portfolio .m-title .m-line {
       border-top-color: #000; }
     #portfolio .m-title nav {
-      float: right; }
+      float: right;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
       #portfolio .m-title nav li {
         display: inline-block;
         float: left; }
@@ -516,7 +520,11 @@ header {
           color: rgba(105, 116, 123, 0.9);
           text-transform: uppercase;
           font-size: 14px;
-          line-height: 2.6; }
+          margin-right: 40px;
+          font-weight: bold;
+          padding: 10px 17px; }
+          #portfolio .m-title nav li a:last-child {
+            margin-right: 0; }
           #portfolio .m-title nav li a .active {
             color: #4bcaff; }
     #portfolio .m-title:after {
@@ -530,6 +538,9 @@ header {
     margin-bottom: 30px; }
     #portfolio .col:last-child {
       margin-right: 0; }
+    #portfolio .col:hover {
+      opacity: .5;
+      cursor: pointer; }
 
 #section {
   background: #515f67;
@@ -549,6 +560,7 @@ header {
     padding: 15px 40px;
     border: 2px solid #353f46;
     font-weight: bold;
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 14px; }
 
