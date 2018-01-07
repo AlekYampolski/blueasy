@@ -1,9 +1,14 @@
 footer {
     height: 170px;
     background: $footer-color;
+    width: 1920px;
+    position: absolute;
 
     ul {
         margin-top: 0;
+        padding-left: 0;
+        position: relative;
+        transform: translateY(70px);
     }
     li {
         float: left;
@@ -13,5 +18,10 @@ footer {
         color: #fff;
         text-transform: uppercase;
         text-decoration: none;
+        padding-right: 15px;
+        border-right: 2px solid #fff;
+        margin-right: 15px;
     }
+
+    
 }

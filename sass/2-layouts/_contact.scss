@@ -1,22 +1,80 @@
 #contact {
     height: 815px;
     position: relative;
- 
+    color: #fff;
+
+    .m-title {
+        h2 {
+            margin-bottom: 40px;    
+        }
+    }
 
     .banner-overlane {
         position: absolute;
        top: 0px;
     }
+    form {
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input, textarea {
+            border: 2px #fff solid;
+            background: transparent;
+            box-sizing: border-box;
+            margin-bottom: 40px;
+        }
+
+        input {
+            width: 470px;
+            height: 60px;
+        }
+
+   
+
+        .form--message{
+            width: 1170px;
+            textarea {
+                
+                width: 100%;
+            }
+        }
+    }
+
+    .btn {
+        text-decoration: none;
+        color: #fff;
+        background:  $twitter-color;
+        padding: 25px 154px;
+    }
 
     .col {
-        width: 47%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 570px;
+        text-transform: none;
+        line-height: 1.4;
+
+        &--text {
+            margin-bottom: 40px;
+        }
+
+        .address {
+            p {
+                margin-bottom: 13px;
+            }
+        }
+
     }
 
-    .col:first-child{
-        float: left;
-    }
-
-    .col:last-child{
-        float: right;
-    }
+    
+   
 }

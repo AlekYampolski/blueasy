@@ -7,4 +7,17 @@
         border-top-color: #000;
         
     }
+
+    .ts {
+        &--quote {
+            font-size: 28px;
+            color: $testim-text-color;
+        }
+
+        &--author {
+            font-size: 14px;
+            font-weight: bold;
+            color: $testim-auth-color;
+        }
+    }
 }

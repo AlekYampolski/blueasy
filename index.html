@@ -240,14 +240,14 @@
         <img src="images/bg_2.jpg" alt="bg-2">
         <div class="banner-overlane">
             <div class="wrapper">
-                    <div class="m-title">
-                            <h2>
-                                    Who is john doe?
-                                <div class="m-line">
-                                </div>
-                            </h2>
+                <div class="m-title">
+                    <h2>
+                        Who is john doe?
+                        <div class="m-line">
                         </div>
-                        <!-- ./m-title -->
+                    </h2>
+                </div>
+                <!-- ./m-title -->
                 <div class="w-main">
 
                     <div class="col">
@@ -265,7 +265,8 @@
                     <div class="col">
                         <p>Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum
                             cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear claw
-                            pastry.</p>
+                            pastry.
+                        </p>
 
                         <div class="logos">
                             <img src="images/icons.png" alt="">
@@ -282,21 +283,21 @@
     <!-- #/who-is -->
     <div id="testimonials">
         <div class="wrapper">
-                <div class="m-title">
-                        <h2>
-                                Testimonials
-                            <div class="m-line">
-                            </div>
-                        </h2>
+            <div class="m-title">
+                <h2>
+                    Testimonials
+                    <div class="m-line">
                     </div>
-                    <!-- ./m-title -->
+                </h2>
+            </div>
+            <!-- ./m-title -->
             <div class="ts-main">
                 <blockquote>"</blockquote>
-                <p>
+                <p class="ts--quote">
                     Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie
                     soufflé sweet roll sweet roll jelly-o.
                 </p>
-                <p>
+                <p class="ts--author">
                     -Walter White
                 </p>
             </div>
@@ -307,51 +308,64 @@
     <!-- #/testimonials -->
     <div id="contact">
 
-    <img src="images/bg_3.jpg" alt="lead-banner">
-    <div class="banner-overlane">
-        <div class="wrapper">
+        <img src="images/bg_3.jpg" alt="lead-banner">
+        <div class="banner-overlane">
+            <div class="wrapper">
 
                 <div class="m-title">
-                        <h2>
-                                Contact
-                            <div class="m-line">
+                    <h2>
+                        Contact
+                        <div class="m-line">
+                        </div>
+                    </h2>
+                </div>
+                <!-- ./m-title -->
+
+                <div class="c-main">
+                    <form action="#">
+
+                        <div>
+
+                            <label for="f-name">Full name</label>
+                            <input type="text" id="f-name">
+                        </div>
+                        <div>
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </div>
+
+                        <div class="form--message">
+
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <a href="#" class="btn" type="submit">message</a>
+
+                        <div class="col">
+                            <div class="col--text">
+                                <p>
+                                    Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake.
+                                    Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.
+                                </p>
                             </div>
-                        </h2>
-                    </div>
-                    <!-- ./m-title -->
+                            <div class="address">
+                                <p>Linda Newman</p>
+                                <p>W325 State Road 123</p>
+                                <p>Mondovi, WI(Wisconsin) 98746-54321</p>
+                                <p>(715) 946 - 1234</p>
+                            </div>
+                        </div>
+                        <!-- ./col -->
+                    </form>
 
-            <div class="c-main">
-                <form action="#">
-                    <div class="col">
 
-                        <label for="f-name">Full name</label>
-                        <input type="text" id="f-name">
-                        
-                        <label for="email">Email</label>
-                        <input type="email" id="email">
-                    </div>
-                    <div class="col">
-                            
-                                                <p>
-                                                    Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake.
-                                                    Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.
-                                                </p>
-                                                <p>
-                                                    Linda Newman W325 State Road 123 Mondovi, WI(Wisconsin) 98746-54321 (715) 946 - 1234
-                                                </p>
-                                            </div>
-                        <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-
-                    <a href="#" class="btn" type="submit">message</a>
-                </form>
-
-                
+                </div>
+                <!-- ./c-main -->
             </div>
-            <!-- ./c-main -->
-        </div>
 
-        <!-- ./wrapper -->
+            <!-- ./wrapper -->
         </div>
         <!-- ./overlane -->
     </div>
@@ -365,18 +379,18 @@
                         <a href="#">Home</a>
                     </li>
                     <li>
-                    <a href="#">services</a>
-                </li>
-                <li>
-                    <a href="#">portfolio</a>
-                </li>
-                <li>
-                    <a href="#">contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <!-- ./wrapper -->
+                        <a href="#">services</a>
+                    </li>
+                    <li>
+                        <a href="#">portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- ./wrapper -->
     </footer>
     <!-- /footer -->
 </body>
